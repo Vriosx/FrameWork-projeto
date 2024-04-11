@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <title>Receita perfeita - nova receita</title>
+    <link rel="stylesheet" href="./css/form.css">
+    <script src="script/script.js" defer></script>
+</head>
+<body>
+
+    <h2>Adicionar nova receita!</h2>
+
+    <form action="">
+        <div class="nes-field">
+            <label for="titulo">Nome da Receita</label>
+            <input type="text" id="titulo" class="nes-input">
+            <span id="titulo-error" class="nes-text is-error"></span>
+          </div>
+
+          <div>
+            <label for="descricao">Descrição da Receita</label>
+            <textarea id="descricao" class="nes-textarea"></textarea>
+        </div>
+
+        <div>
+            <label>
+                <input type="radio" class="nes-radio" name="answer" />
+                <span>1 estrela</span>
+            </label>
+            
+            <label>
+                <input type="radio" class="nes-radio" name="answer" />
+                <span>2 Estrelas</span>
+            </label>
+            
+            <label>
+                <input type="radio" class="nes-radio" name="answer" checked />
+                <span>3 estrelas</span>
+              </label>
+        </div>
+
+        <div class="botoes">
+            <a class="nes-btn" href="/">Cancelar</a>
+            <button type="button" id="botao-cadastrar" class="nes-btn is-primary">Enviar Receita!</button>
+
+        </div>
+
+
+
+
+
+    </form>
+
+</body>
+</html>

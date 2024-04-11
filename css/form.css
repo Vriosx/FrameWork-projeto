@@ -1,7 +1,8 @@
 h2{
-text-align: center;
+    text-align: center;
+    font-size: 1rem;
 }
-
+    
 form{
     display: flex;
     flex-direction: column;
@@ -13,5 +14,6 @@ form{
         display: flex;
         justify-content: space-between;
     }
-
+    
 }
+    

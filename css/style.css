@@ -1,0 +1,20 @@
+body{
+    padding: 2rem;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+#lista-tarefas{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(200px, 2fr));
+    gap: 1rem;
+    
+}
+
+#inicio{
+    padding-bottom: 2rem;
+}
