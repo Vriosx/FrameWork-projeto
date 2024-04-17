@@ -1,5 +1,5 @@
 body{
-    padding: 2rem;
+    padding: 2.5rem;
 }
 
 nav{
@@ -8,12 +8,12 @@ nav{
     margin-bottom: 2rem;
 }
 
-#lista-de-tarefas{
+#lista-tarefas{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 1rem;
+    gap: 1.5rem;
 }
 
 #inicio{
-    padding-bottom: 2rem;
+    padding-bottom: 4rem;
 }
