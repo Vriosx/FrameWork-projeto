@@ -17,3 +17,14 @@ nav{
 #inicio{
     padding-bottom: 4rem;
 }
+
+.stats{
+    display: grid;
+    grid-template-columns: repeat(3, 0.5fr);
+    gap: 2rem;
+
+    p{
+        font-size: 3rem;
+        text-align: center;
+    }
+}
